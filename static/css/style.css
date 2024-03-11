@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*..........................................Navbar....................................*/
+header{
+    color: white;
+    background-color:#d55c5a;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top:0;
+    padding-left: 5px;
+    padding-top: 10px;
+    box-shadow: 8px 3px 5px black;
+}
+header img{
+    
+    padding-left: 5px;
+    width: 100px;
+    height: 40px;
+    
+    
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  #search {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width:250px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  
+  
+#search-button {
+    background-color:#302B3A ; 
+    border: #302B3A;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 35px;
+}
+  
+  
+#search-button:hover {
+    background-color: #302B3A; 
+}
+ /*sign in*/ 
+button{
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border:1px solid white;
+    background: transparent;
+    color: white;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+#si:hover{
+    background-color: #302B3A;
+    color: white;
+    border: 1px solid #302B3A;
+}
+.navtop{
+    display: flex;
+    justify-content: space-between;
+}
+.navtop a{
+    text-align: center;
+}
+/*............................index Page....................*/
+.head-con{
+    
+    padding-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    color: black;
+}
+.head1-con{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+.btn {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius:30px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+.btn button{
+    width: 200px;
+    background-color: #302B3A;
+    border: 1px solid #302B3A;
+    color: white;
+}
+.btn button:hover{
+    background-color: #302B3A;
+    border: 1px solid #302B3A;
+    color: white;
+}
+.bg{
+    background-image: url(../images/bg2.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.topic {
+    text-align: center;
+    margin-left: 41%;
+    font-size: 25px;
+    
+}
+.topp a{
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+    margin-left: 40px;
+
+}
+.topp{
+    margin-left: 430px;
+    
+}
+
+
+
+
+
+
+
+/*................................side navbar....................*/
+
+.navside{
+    height: 91%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+    background-color:#ffffff;
+    margin-top: 70px; 
+    margin-bottom: 30px;
+}
+.navside a{
+    text-decoration: none;
+    color :#db514f;
+    padding: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.navside li:hover{
+    background-color: antiquewhite;
+}
+
+.navside li{
+    list-style-type: none;
+
+    text-align: left;
+    padding-bottom: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    border-bottom: 1px solid rgb(82, 107, 107);
+    border-right: 1px solid rgb(82, 107, 107);
+}
+
+
+
+
+
+
+/*.....................................page content basics.............................*/
+.con{
+    margin-top: 90px;
+    margin-left: 290px;
+    width: 55%;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.text p{
+    text-indent: 80px;
+}
+.headings{
+    color: #d55c5a;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.con li{
+    margin-left: 45px;
+}
+
+.html-con{
+    width: auto;
+  background-color: rgb(253, 243, 243);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #116566;
+  border-left: 2px solid #2e9797;
+  margin-left: 45px;
+  padding: 10px;
+  
+}
+table ,th,td,tr{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+
+
+
+
+/*.......................cart Page.........................*/
+
+
+.tut{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    color: #db514f;
+}
+.card-wh{
+    
+    display: flex;    
+    
+}
+.card{
+   
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.card img{
+    width: 270px;
+    height: 200px;
+}
+.side-hd{
+    text-align: center;
+    font-weight: 700;
+}
+.cl{
+    margin-left:470px;
+}
+
+.card p{
+    text-align: center;
+}
+footer{
+ background-color: #7395ae;
+}
+footer img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/*.............................explore more.................*/
+.cer{
+    width: 20%;
+   margin-top: 200px;
+    color: black;
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bb{
+    color: black;
+    font-size: 15px;
+    border: 1px solid #db514f;
+    margin-left: 15px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+
+}
+#bb:hover{
+    background-color: #302B3A;
+    color: white;
+}
+.cer-box{
+    width: 250px;
+    height:270px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 2px #adadad;
+    position: fixed;
+    background-color: antiquewhite;
+    
+}
+.cer-hd{
+    text-align: center;
+    font-size: 20px;
+    color: #2e9797;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/*......................previous next button....................*/
+#pre-btn{
+    color: white;
+    background-color: #302B3A;
+    border-radius: 25px;
+    border: 1px solid black;
+    width:100px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.pre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+/*Examples...............*/
+.navigation li{
+    list-style-type: none;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    cursor: pointer;    
+}
+.navigation li:hover{
+    background-color: #ccc;
+}
+.navigation ul{
+   margin-top: 15px;
+   
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="navtop">
+        <div>
+          <img src="../images/eduwiz-logo.png" alt="logo" />
+        </div>
+
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search..." />
+          <button type="submit" id="search-button">Search</button>
+        </div>
+
+        <div>
+          <button><a href="home.html">Sign in</a></button>
+          <button><a href="home.html">Login</a></button>
+        </div>
+      </div>
+    </header>
+    <div class="whole">
+      <div class="navside">
+        <li><a href="form.html"> Form</a></li>
+        <li><a href="input.html">Input Types</a></li>
+        <li><a href="fattri.html">Form attributes</a></li>
+        <li><a href="fattri.html">Form Elements</a></li>
+        <li><a href="label.html">Label</a></li>
+        <li><a href="fstyle.html">Form Styles</a></li>
+      </div>
+      <div class="con">
+        <div class="headings">Html Forms</div>
+        <p>
+          An HTML form is used to collect user input. The user input is most
+          often sent to a server for processing.
+        </p>
+        <div class="html-con">
+          <form action="/action_page.php">
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="John" /><br />
+            <label for="lname">Last name:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <p>
+          The &lt;form> element is a container for different types of input
+          elements, such as: text fields, checkboxes, radio buttons, submit
+          buttons, etc.
+        </p>
+        <p>
+          The HTML &lt;input> element is the most used form element. An
+          &lt;input> element can be displayed in many ways, depending on the
+          type attribute.
+        </p>
+        <div class="pre">
+          <p id="pre-btn">&lt; Pre</p>
+          <p id="pre-btn">Next &gt;</p>
+        </div>
+      </div>
+
+      <div class="cer">
+        <div class="cer-box">
+          <div class="cer-hd">Explore More</div>
+          <a
+            href="https://www.programiz.com/html/online-compiler/"
+            target="_blank"
+            ><button id="bb">Try Exercises</button> <br
+          /></a>
+          <a href="thome.html"><button id="bb">Next Chapter</button> <br /></a>
+          <a href="hnav.html">
+            <button id="bb">How to make Navbar</button> <br
+          /></a>
+          <a href="example.html">
+            <button id="bb">View Examples</button> <br
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
